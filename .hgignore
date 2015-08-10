@@ -1,0 +1,64 @@
+syntax:glob
+
+# Moonman stuffs
+*.o
+launcher_log.txt
+
+# Vim + notepad++ + .pyc
+*~
+*.swp
+.~lock*#
+*.pyc
+
+# temp save of xlsx
+~*.xlsx
+
+# Apple/Xcodek
+syntax: glob
+*.DS_Store
+xcode/*.xcodeproj/*.pbxuser
+xcode/*.xcodeproj/*.perspective*
+xcode/*.xcodeproj/*.mode*
+xcode/*.xcodeproj/xcuserdata/*
+*.xcuserstate
+
+# Ignore visual studio files
+
+syntax: glob
+test/*/*.exe
+*.obj
+*.user
+*.aps
+*.pdb
+*.pch
+*.nativecodeanalysis.xml
+*.lastcodeanalysissucceeded
+*.nativecodeanalysis.all.xml
+# *msvc*.exe
+*.unsuccessfulbuild
+*.vspscc
+*.vshost.*
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.tlog
+*.idb
+*.sdf
+*.opensdf
+*.embed.*
+*.intermediate.*
+*.lastbuildstate
+*_manifest.rc
+*.ipch
+test/*/**.lib
+*.sbr
+*.scc
+obj/
+
